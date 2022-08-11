@@ -1,0 +1,15 @@
+.filter_container {
+  margin-left: 40px;
+  width: 335px;
+}
+
+.filter_label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.filter_input {
+  margin-top: 15px;
+  height: 18px;
+}

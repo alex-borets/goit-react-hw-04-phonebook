@@ -1,0 +1,40 @@
+.form_container {
+  margin-left: 40px;
+  padding: 0 15px 15px 15px;
+  max-width: 300px;
+
+  border: 1px solid black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_label {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.form_title {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.form_input {
+  padding: 0;
+  margin-top: 5px;
+  max-width: 150px;
+  height: 18px;
+}
+
+.form_btn {
+  margin-top: 20px;
+  max-width: 100px;
+}
+
+.form_btn:hover,
+.form_btn:focus {
+  background-color: rgb(16, 145, 224);
+}

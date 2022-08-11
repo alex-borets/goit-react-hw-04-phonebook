@@ -1,0 +1,17 @@
+.contacts_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts_item:not(:last-child) {
+  padding-bottom: 15px;
+}
+.contacts_name {
+  font-weight: 500;
+}
+
+.contacts_btn:hover,
+.contacts_btn:focus {
+  background-color: rgb(16, 145, 224);
+}
