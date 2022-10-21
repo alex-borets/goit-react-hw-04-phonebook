@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-import { ContactsListItem } from '../ContactsListItem';
+import ContactsListItem from '../ContactsListItem';
 import css from './ContactsList.module.css';
 
-export const ContactsList = ({ contacts, deleteContact }) => {
+const ContactsList = ({ contacts, deleteContact }) => {
   return (
     <ul className={css.contacts_list}>
       {contacts.map(({ name, number, id }) => {
@@ -30,3 +30,5 @@ ContactsList.propTypes = {
   ).isRequired,
   deleteContact: PropTypes.func.isRequired,
 };
+
+export default ContactsList;
